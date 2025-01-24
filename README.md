@@ -8,3 +8,9 @@ Made with React
 
 
 With this release, you will be able to calculate a Loan and view an armotization table for the same.
+
+
+The backend repo is here: [https://github.com/david-matu/loancalc-backend](https://github.com/david-matu/loancalc-backend)
+
+
+To view Swagger definition of the backend: [https://loancalc-api-chai.onrender.com/openapi/webjars/swagger-ui/index.html](https://loancalc-api-chai.onrender.com/openapi/webjars/swagger-ui/index.html)

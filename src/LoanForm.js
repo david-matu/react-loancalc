@@ -10,7 +10,7 @@ function LoanForm() {
   const onSubmit = async (data) => {
     try {
       const token = 'cmVzaWxpZW50OnB3ZDEyMw==';
-      const response = await axios.post('http://localhost:8080/calc/loan-armotization', data, {
+      const response = await axios.post('https://loancalc-api-chai.onrender.com/calc/loan-armotization', data, {
         headers: { Authorization: `Basic ${token}` }
       });
       setResults(response.data);
